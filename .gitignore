@@ -1,3 +1,10 @@
+*.csv
+git rm --cached *.csv
+*.pkl
+git rm --cached *.pkl
+*.txt
+git rm --cached *.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
