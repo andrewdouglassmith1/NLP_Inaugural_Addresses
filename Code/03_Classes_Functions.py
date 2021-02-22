@@ -3,7 +3,7 @@ from nltk.stem import WordNetLemmatizer
 
 class LemmaTokenizer(object):
     '''
-    Creates a functionb to allow me to Lemmatize within a count vectorizer 
+    Creates a function to allow me to Lemmatize within a count vectorizer
     '''
     def __init__(self):
         self.wnl = WordNetLemmatizer()
